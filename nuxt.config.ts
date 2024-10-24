@@ -4,5 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   vite: {
     base: '/nuxt-progect'
-  }
+  },
+
+  modules: ["@prisma/nuxt"]
 })
